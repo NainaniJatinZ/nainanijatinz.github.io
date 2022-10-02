@@ -17,4 +17,6 @@ social: true  # includes social icons at the bottom of the page
 
 I'm Jatin, an AGI Enthusiast with an excellent academic background and a strong inclination towards research. I'm a Community Mentor for Somaiya Machine Learning Research Association. I have worked in various Machine Learning Domains such as Computer Vision and Natural Language Processing. I'm also one of the Google DSC Solution Challenge ‘21 Global Winner.
 
+Currently, I'm focused on exploring Spiking Neural Networks for time series pattern recognition.
+
 
