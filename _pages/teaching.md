@@ -23,7 +23,6 @@ Headed a student council of KJSCE with the aim to accelerate collaboration among
 
 Speaker and/or Instructor of following events: 
 
-<!-- <br> -->
 
 - Machine Learning - 101 - [Github](https://github.com/smlra-kjsce/ML-101-2021), [Recording](https://youtu.be/B9KKlrlErMk) 
 

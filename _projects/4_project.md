@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Investing Assistant
+description: Long term ML software supported with RL and NLP
 img:
-importance: 3
-category: fun
+importance: 4
+category: General
 ---
 
 Every project has a beautiful feature showcase page.
