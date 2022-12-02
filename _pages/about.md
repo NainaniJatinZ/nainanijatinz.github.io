@@ -23,6 +23,8 @@ I have worked in various Machine Learning Domains such as Computer Vision, Natur
 
 You can contact me at: nainani.jatin.0@gmail.com
 
+[And you can find my **Resume** here: CV](https://drive.google.com/file/d/1aNotT_B-xUM7jUB7meaTvigz3BiVbxAl/view?usp=share_link)
+
 Some of my ongoing projects:
 - Spiking Neuron Models for Energy Efficient Network Training
 - Multimodal Transfer Learning 
@@ -31,13 +33,15 @@ Some of my ongoing projects:
 
 # What's new about me?
 
-- 27/11/22 --> I just presented [my paper](https://arxiv.org/abs/2209.12664) in 2nd International Conference on Intelligent Vision and Computing [(ICIVC 2022)](https://www.icivc22.scrs.in). I had a wonderful time there, got to meet some amazing professors and experts in the field.
+- 27/11/22 ⮕ I just presented [my paper](https://arxiv.org/abs/2209.12664) in 2nd International Conference on Intelligent Vision and Computing [(ICIVC 2022)](https://www.icivc22.scrs.in). I had a wonderful time there, got to meet some amazing professors and experts in the field.
 
-- 25/8/22 --> Completed my internship in [AdSkate](https://www.adskate.com/) under [Dr. Shreyas Venugopalan](https://scholar.google.com/citations?user=m0otvlsAAAAJ&hl=en&oi=ao). Tackled problems in NLP, Hierarchial Classification, Big Data Analysis and API Handling.
+- 10/9/22 ⮕ Organised and hosted a workshop on Reinforcement Learning as the lead of [SMLRA](https://smlra-kjsce.github.io/#/). Find more on [my Teaching Tab](/teaching/).
 
-- 16/2/22 --> Completed a certification from IIT-Madras on [Demystifying the Brain](https://nptel.ac.in/courses/102106066). Through this I was able to upskill myself in the area of computational neuroscience.
+- 25/8/22 ⮕ Completed my internship in [AdSkate](https://www.adskate.com/) under [Dr. Shreyas Venugopalan](https://scholar.google.com/citations?user=m0otvlsAAAAJ&hl=en&oi=ao). I worked on Multilingual Article Categorization, using Word embedding and Ensemble models. We tackled problems in NLP, Hierarchial Text Classification, Big Data Analysis and API Handling.
 
-- 26/8/21 --> My team was awarded as one of the three winners in [Google's Developer Student Clubs 2021 Solution Challenge](https://developers.google.com/community/gdsc-solution-challenge/winners) for our project [**Eye of God**](/projects/1_project/). This aim of the competition was to create a fully developed project that could create a positive impact on the community through the UN's 17 Sustainable Development Goals. Youtube vid of our demo: [https://www.youtube.com/watch?v=mmprcC3SH_A](Click here) 
+- 16/2/22 ⮕ Completed a certification from IIT-Madras on [Demystifying the Brain](https://nptel.ac.in/courses/102106066). Through this I was able to upskill myself in the area of computational neuroscience.
+
+- 26/8/21 ⮕ My team was awarded as one of the three winners in [Google's Developer Student Clubs 2021 Solution Challenge](https://developers.google.com/community/gdsc-solution-challenge/winners) for our project [**Eye of God**](/projects/1_project/). This aim of the competition was to create a fully developed project that could create a positive impact on the community through the UN's 17 Sustainable Development Goals. Youtube vid of our demo: [https://www.youtube.com/watch?v=mmprcC3SH_A](Click here) 
 
 
 

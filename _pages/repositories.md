@@ -16,7 +16,7 @@ nav_order: 3
               alt=page.profile.image -%}
 </div>
 
-## AdSkate, Pittsburgh, U.S.
+## [AdSkate, Pittsburgh, U.S.](https://www.adskate.com/)
 #### Software Engineering Intern (Remote)  
 - Worked on Multilingual Article Categorization using Word Embeddings and Ensemble models to reduce the workload on the server from large-scale transformer models.
 - Cleaned and analyzed large text data of articles and news with hierarchical categories with spaCy and NLTK.

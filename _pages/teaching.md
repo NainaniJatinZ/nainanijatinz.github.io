@@ -15,7 +15,7 @@ nav_order: 5
               alt=page.profile.image -%}
 </div>
 
-## Somaiya Machine Learning Research Association (SMLRA)
+## [Somaiya Machine Learning Research Association (SMLRA)](https://smlra-kjsce.github.io/#/)
 
 #### Lead Mentor
 
