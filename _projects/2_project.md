@@ -3,8 +3,8 @@ layout: page
 title: Green Route
 description: Best Open Innovation for Electrothon-21. 
 img: assets/img/Green_Route_Icon.png
-importance: 2
-category: Hackathons
+importance: 3
+category: General
 ---
 
 

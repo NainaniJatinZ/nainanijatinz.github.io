@@ -4,8 +4,8 @@ title: Hack Inversion
 description: Advanced Time Series Forecasting for Natural Gas Prices
 img: assets/img/SIH.png
 # redirect: https://unsplash.com
-importance: 3
-category: Hackathons
+importance: 4
+category: General
 ---
 
 

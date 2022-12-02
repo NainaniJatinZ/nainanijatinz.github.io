@@ -4,7 +4,7 @@ title: Eye of God
 description: Global Winner of Google's DSC-21. An easy-to-use navigation system for visually impaired people.
 img: assets/img/Eye_of_god.png
 importance: 1
-category: Hackathons
+category: General
 ---
 
 
