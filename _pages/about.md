@@ -23,7 +23,7 @@ I have worked in various Machine Learning Domains such as Computer Vision, Natur
 
 You can contact me at: nainani.jatin.0@gmail.com
 
-[And you can find my **Resume** here: CV](https://drive.google.com/file/d/1aNotT_B-xUM7jUB7meaTvigz3BiVbxAl/view?usp=share_link)
+[And you can find my **Resume** here: CV](https://drive.google.com/file/d/1zI60k5U6ocWIuFau2k8jx3-ymtHxbuB6/view?usp=share_link)
 
 Some of my ongoing projects:
 - Spiking Neuron Models for Energy Efficient Network Training
@@ -32,6 +32,8 @@ Some of my ongoing projects:
 
 
 # What's new about me?
+
+- 3/12/22 ⮕ My paper in ICIVC 2022 was awarded the [**Best Paper** for the category of Intelligent Systems](https://drive.google.com/file/d/1xjYcPkqsHTjtDvOcoD_W4Qxb-M4X0M87/view?usp=share_link). 
 
 - 27/11/22 ⮕ I just presented [my paper](https://arxiv.org/abs/2209.12664) in 2nd International Conference on Intelligent Vision and Computing [(ICIVC 2022)](https://www.icivc22.scrs.in). I had a wonderful time there, got to meet some amazing professors and experts in the field.
 
