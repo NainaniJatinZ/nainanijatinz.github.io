@@ -33,6 +33,8 @@ Some of my ongoing projects:
 
 # What's new about me?
 
+- 13/2/2 ⮕ One of my papers just got published in IEEE, link can be found here: [https://ieeexplore.ieee.org/abstract/document/10039535](https://ieeexplore.ieee.org/abstract/document/10039535).
+
 - 3/12/22 ⮕ My paper in ICIVC 2022 was awarded the [**Best Paper** for the category of Intelligent Systems](https://drive.google.com/file/d/1xjYcPkqsHTjtDvOcoD_W4Qxb-M4X0M87/view?usp=share_link). 
 
 - 27/11/22 ⮕ I just presented [my paper](https://arxiv.org/abs/2209.12664) in 2nd International Conference on Intelligent Vision and Computing [(ICIVC 2022)](https://www.icivc22.scrs.in). I had a wonderful time there, got to meet some amazing professors and experts in the field.
