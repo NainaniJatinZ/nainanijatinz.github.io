@@ -16,11 +16,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm Jatin, an AGI Enthusiast with an outstanding academic record and a strong desire to conduct research. My primary interests revolve around acquiring an abstract understanding of intelligence with the help of AI. This includes building SOTA algorithms from scratch, creating interpretable networks, and drawing analogies from neuroscience. 
+I'm Jatin, an AGI Enthusiast with a strong desire to conduct research. My primary interests revolve around acquiring an abstract understanding of intelligence with the help of AI. This includes building SOTA algorithms from scratch, creating interpretable networks, and drawing analogies from neuroscience. 
 
 Currently pursuing my **Master of Science in Computer Science at University of Massachusetts Amherst**. Working on Mechanistic Interpretability and efficient Deep Reinforcement Learning for my first semester.
 
-I'm one of the **Google DSC Solution Challenge ‘21 Global Winner**, where we created a system to help Blind and Visually Impaired navigate their surroundings. I have also interned at [AdSkate, Inc](https://www.adskate.com/) as a **ML Research Intern** solving various problems in automated image analysis and Multimodal algorithms.
+I'm one of the **Google DSC Solution Challenge ‘21 Global Winner**, where I created a system to help Blind and Visually Impaired navigate their surroundings. I have also interned at [AdSkate, Inc](https://www.adskate.com/) as a **ML Research Intern** solving various problems in automated image analysis and Multimodal algorithms.
 
 I have worked in various Machine Learning Domains such as MultiModal AI, MultiDomain AI, Computer Vision, Natural Language Processing, Reinforcement Learning, and Time series Analysis. 
 
@@ -38,6 +38,7 @@ Some of my ongoing projects:
 # What's new about me?
 
 - 8/26/23 ⮕ I started my [Master of Science in Computer Science](https://www.cics.umass.edu/) at [University of Massachusetts Amherst](https://www.umass.edu/)!
+
 - 7/25/23 ⮕ Completed my 6 month internship with [AdSkate, Inc](https://www.adskate.com/). I worked as a Machine Learning Research Intern, find more details in my [Experience Section](/experience).
 
 - 5/25/23 ⮕ Completed my Bachelor of Technology in Electronics and Telecommunication Engineering with a CGPA of 9.51/10 (3.89/4). My thesis will be public soon!
