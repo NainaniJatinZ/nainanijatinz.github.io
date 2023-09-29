@@ -12,7 +12,23 @@ nav_order: 3
 {% include figure.html 
               path='assets/img/adskate.png' 
               class="img-fluid z-depth-1 rounded"
-              caption='June 2022 – August 2022'
+              caption='Jan 2023 – Jul 2023'
+              alt=page.profile.image -%}
+</div>
+
+## [AdSkate, Pittsburgh, U.S.](https://www.adskate.com/)
+#### Machine Learning Research Intern (Remote)  
+- Automated video analysis of 100+ advertisements, leveraging Google Cloud, OpenAI APIs, and custom models, resulting in a 70\% reduction in manual analysis time. 
+- Built multi-modal data processing, including text translation, categorization, and keyframe analysis, utilizing LLMs and Vision Transformers, improving data processing efficiency by 25\%. 
+- Streamlined image analysis using ViLT Visual Question Answering Model and a custom algorithm, eliminating manual labeling and data entry, streamlining ad analysis workflow. 
+
+<br>
+
+<div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+{% include figure.html 
+              path='assets/img/adskate.png' 
+              class="img-fluid z-depth-1 rounded"
+              caption='Jun 2022 – Aug 2022'
               alt=page.profile.image -%}
 </div>
 
@@ -29,7 +45,7 @@ nav_order: 3
 {% include figure.html 
               path='assets/img/kjsce.jpg' 
               class="img-fluid z-depth-1 rounded"
-              caption='December 2021 – February 2022'
+              caption='Dec 2021 – Feb 2022'
               alt=page.profile.image -%}
 </div>
 
@@ -47,7 +63,7 @@ nav_order: 3
 {% include figure.html 
               path='assets/img/tkr.jpg' 
               class="img-fluid z-depth-1 rounded"
-              caption='July 2020 – December 2020'
+              caption='Jul 2020 – Dec 2020'
               alt=page.profile.image -%}
 </div>
 
