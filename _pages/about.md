@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: new_prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: MS in Computer Science 
    University of Massachusetts Amherst
@@ -15,28 +15,56 @@ news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Explorer first, researcher second, engineer third.
 
-I'm Jatin, an AGI Enthusiast with a strong desire to conduct research. My primary interests revolve around acquiring an abstract understanding of intelligence with the help of AI. This includes building SOTA algorithms from scratch, creating interpretable networks, and drawing analogies from neuroscience. 
+I’m deeply fascinated by intelligence and reasoning, both in narrow and general contexts. My core interests lie in reverse-engineering systems like Large Language Models (LLMs) and diffusion models, particularly exploring their non-trivial capabilities.
 
-Currently pursuing my **Master of Science in Computer Science at University of Massachusetts Amherst**. Working on Mechanistic Interpretability and efficient Deep Reinforcement Learning for my first semester.
+My research in Mech Interp follows a simple moto - "If a neural network can **consistently** show **nontrivial** abilites, I should be able to **reverse engineer** it". If a network that satisfies the above two criteria is reading this, be wary! I am coming for you.
 
-I'm one of the **Google DSC Solution Challenge ‘21 Global Winner**, where I created a system to help Blind and Visually Impaired navigate their surroundings. I have also interned at [AdSkate, Inc](https://www.adskate.com/) as a **ML Research Intern** solving various problems in automated image analysis and Multimodal algorithms.
+I iterate quickly with the goal to fail fast and adjust. I love learning things that fascinate me from ground up -- currently focusing on proteins and robotics. I love hiking, writing, and playing tech mods on minecraft.
 
-I have worked in various Machine Learning Domains such as MultiModal AI, MultiDomain AI, Computer Vision, Natural Language Processing, Reinforcement Learning, and Time series Analysis. 
+Currently, I’m pursuing an MS in Computer Science at UMass Amherst, working on my thesis in Mechanistic Interpretability under the guidance of Prof. David Jensen and Prof. Anna Green (Preliminary report coming soon!).
+
 
 You can contact me at: **nainani.jatin.0@gmail.com**
-
-[And you can find my **Resume** here: CV](https://drive.google.com/file/d/1FDQonUStXESpphuAY8MdO-N8eNz0BWTp/view?usp=sharing)
-
-Some of my ongoing projects:
-- Mechanistic Interpretability for Language Models
-- Biologically Inspired Models and Computation
-- Continual and Lifelong Learning 
-- Efficient Deep Reinforcement Learning
-
+<!-- 
+[And you can find my **Resume** here: CV](https://drive.google.com/file/d/1FDQonUStXESpphuAY8MdO-N8eNz0BWTp/view?usp=sharing) -->
 
 # What's new about me?
 
+- 10/01/24 ⮕ Got into Neel Nanda's MATs Training Phase
+- 09/05/24 ⮕ Completed summer internship at NVIDIA, working on using LLM agents for Chip Design and VLSI
+
+To properly format and highlight your **publications** and **in-progress works**, you can use a clear structure with bullet points or sections, emphasizing key information (titles, authors, links). Here's a professional and visually appealing arrangement:
+
+---
+
+## Publications and In-Progress Work
+
+**Adaptive Circuit Behavior and Generalization in Mechanistic Interpretability**\
+**Jatin Nainani\***, Sankaran Vaidyanathan*, AJ Yeung, Kartik Gupta, David Jensen\
+In preparation | 📄 [arXiv](https://arxiv.org/abs/2411.16105)
+
+
+**CS4: Measuring the Creativity of Large Language Models Automatically by Controlling the Number of Story-Writing Constraints**\
+Anirudh Atmakuru*, **Jatin Nainani\***, Rohith Siddhartha Reddy Bheemreddy, Anirudh Lakkaraju, Zonghai Yao, Hamed Zamani, Haw-Shiuan Chang\
+In preparation | 📄 [arXiv](https://arxiv.org/abs/2410.04197)
+
+
+**Evaluating Brain-Inspired Modular Training in Automated Circuit Discovery for Mechanistic Interpretability**\
+**Jatin Nainani**\
+📄 [arXiv](https://arxiv.org/abs/2401.03646)
+
+
+**Smartphone based tactile feedback system providing navigation and obstacle avoidance to the blind and visually impaired**\
+Anish Pawar, **Jatin Nainani**, Priyanka Hotchandani, Gayatri Patil\
+Publised at IEEE ICAST 2022 | 📄 [IEEE](https://ieeexplore.ieee.org/abstract/document/10039535)
+
+---
+ > *\* Denotes co-first authorship.*
+
+
+<!-- 
 - 8/26/23 ⮕ I started my [Master of Science in Computer Science](https://www.cics.umass.edu/) at [University of Massachusetts Amherst](https://www.umass.edu/)!
 
 - 7/25/23 ⮕ Completed my 6 month internship with [AdSkate, Inc](https://www.adskate.com/). I worked as a Machine Learning Research Intern, find more details in my [Experience Section](/experience).
@@ -63,4 +91,4 @@ Some of my ongoing projects:
 
 
 
-
+ -->

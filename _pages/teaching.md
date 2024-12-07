@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /teaching/
 title: teaching
@@ -51,4 +51,4 @@ Speaker and/or Instructor of following events:
 - Reinforcement Learning - [Github](https://github.com/smlra-kjsce/Reinforcement-Learning), [Recording](https://youtu.be/NyhO_8DYxCk)
 
     Explored the fundamentals behind the working of RL like MDP, Bellman equations. Covered the theory and implementation for RL Algorithms.
-
+ -->
