@@ -35,8 +35,6 @@ You can contact me at: **nainani.jatin.0@gmail.com**
 - 10/01/24 ⮕ Got into Neel Nanda's MATs Training Phase
 - 09/05/24 ⮕ Completed summer internship at NVIDIA, working on using LLM agents for Chip Design and VLSI
 
-To properly format and highlight your **publications** and **in-progress works**, you can use a clear structure with bullet points or sections, emphasizing key information (titles, authors, links). Here's a professional and visually appealing arrangement:
-
 ---
 
 ## Publications and In-Progress Work
