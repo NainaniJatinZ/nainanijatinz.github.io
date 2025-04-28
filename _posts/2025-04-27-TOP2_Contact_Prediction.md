@@ -479,7 +479,7 @@ function showFeature(fid){
   const f = graphData.features[fid] || {};
 
   // find the layer from our map
-  const layerIdx = featureLayer[fid] ?? "unknown";
+  const layerIdx = featureLayer[fid] || "unknown";
 
   // extract numeric feature index after the dot
   const featIdx = fid.includes('.') ? fid.split('.')[1] : fid;
