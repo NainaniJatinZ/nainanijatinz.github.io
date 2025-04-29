@@ -116,7 +116,7 @@ const mainNodes = [
   {id:"N_last",label:"_N",type:"super",members:["4.3170"],x:150,layer:4},
   {id:"D_last",label:"D_",type:"super",members:["4.527"],x:150,layer:4},
   {id:"G_last",label:"G_",type:"super",members:["4.3069"],x:150,layer:4},
-  {id:"GXG_mid",label:"GXG",type:"super",members:["8.3903","8.1055","8.2066"],x:50,layer:8}, 
+  {id:"GXG_mid",label:"GXG\nHATPase",type:"super",members:["8.3903","8.1055","8.2066"],x:50,layer:8}, 
   {id:"C_spec",label:"C",type:"super",members:["4.3544"],x:50,layer:4}, 
   {id:"YX_",label:"YX_",type:"super",members:["4.2112"],x:50,layer:4}, 
   {id:"I_spec",label:"I",type:"super",members:["4.1297"],x:50,layer:4}, 
@@ -275,24 +275,33 @@ const graphData = {
   "4.3170": {
     description: "Fires right before N, inhibitory causal effect at 265D",
     activations: "",
+    fig1: "circuits_1pvg_jump/l4_3170.png",
+    fig2: "circuits_1pvg_jump/pattern_N.png",
+    // fig3: "circuits_1pvg_jump/YX_pattern.png",
     // fig1: "https://via.placeholder.com/400x200?text=Feature+4+Plot+1",
     // fig2: "https://via.placeholder.com/400x200?text=Feature+4+Plot+2"
   },
   "4.527": {
     description: "Fires right after D, inhibitory causal effect at 266N",
     activations: "",
+    fig1: "circuits_1pvg_jump/l4_527.png",
+    fig2: "circuits_1pvg_jump/D_pattern.png",
     // fig1: "https://via.placeholder.com/400x200?text=Feature+4+Plot+1",
     // fig2: "https://via.placeholder.com/400x200?text=Feature+4+Plot+2"
   },
   "4.3069": {
     description: "Fires right after G, casual effect at 268G which is masked in clean.",
     activations: "",
+    fig1: "circuits_1pvg_jump/l4_3069.png",
+    fig2: "circuits_1pvg_jump/G_pattern.png",
     // fig1: "https://via.placeholder.com/400x200?text=Feature+4+Plot+1",
     // fig2: "https://via.placeholder.com/400x200?text=Feature+4+Plot+2"
   },
   "4.2511": {
     description: "Fires on _XQ, but also QX_ but weaker. Latter is present.",
     activations: "",
+    fig1: "circuits_1pvg_jump/l4_2511.png",
+    fig2: "circuits_1pvg_jump/pattern_XQ.png",
     // fig1: "https://via.placeholder.com/400x200?text=Feature+4+Plot+1",
     // fig2: "https://via.placeholder.com/400x200?text=Feature+4+Plot+2"
   },
@@ -318,7 +327,9 @@ const graphData = {
   "4.2112": {
     description: "Fires on YX_, fires on G30, which has YIG. Y was masked in corrupted. ",
     activations: "",
-    // fig1: "https://via.placeholder.com/400x200?text=Feature+4+Plot+1",
+    fig1: "circuits_1pvg_jump/l4_2112.png",
+    fig2: "circuits_1pvg_jump/l4_2112_cons.png",
+    fig3: "circuits_1pvg_jump/YX_pattern.png",
     // fig2: "https://via.placeholder.com/400x200?text=Feature+4+Plot+2"
   },
 }
