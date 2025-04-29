@@ -67,6 +67,7 @@
       border-radius: 1rem;
       display: none;
       z-index: 9999;
+      overflow-x: hidden; 
     }
 
     #feat-tabs button {
@@ -126,7 +127,25 @@ const mainNodes = [
    {id:"D_spec",label:"D",type:"super",members:["4.1196"],x:50,layer:4}, 
    {id:"E_spec",label:"E",type:"super",members:["4.1509"],x:50,layer:4}, 
    {id:"XQX",label:"_XQ",type:"super",members:["4.2511"],x:50,layer:4}, 
-
+   {id:"NXXXNA",label:"NXXXNA\nHATPase",type:"super",members:["8.3159", "8.1916"],x:50,layer:8}, 
+   {id:"IXVXD",label:"IXVXD\nHATPase",type:"super",members:["8.2527"],x:50,layer:8}, 
+   {id:"sheet_alpha",label:"Sheets around alpha",type:"super",members:["8.2662"],x:50,layer:8}, 
+   {id:"alt_beta",label:"alternate Beta residues",type:"super",members:["8.2621"],x:50,layer:8}, 
+   {id:"repeat_dn",label:"Repeating D,N",type:"super",members:["8.3921"],x:50,layer:8}, 
+   {id:"hatpase_segment",label:"Beta in HATPase",type:"super",members:["12.3943", "12.1796", "12.1145"],x:50,layer:12}, 
+  // {id:"hatpase_segment",label:"Beta in HATPase",type:"super",members:["12.3943", "12.1796"],x:50,layer:12}, 
+{id:"general_beta",label:"Beta Strands",type:"super",members:["12.2474"],x:50,layer:12}, 
+{id:"GHKL_12",label:"GHKL Domain",type:"super",members:["12.1204"],x:50,layer:12}, 
+{id:"yeast_12",label:"Yeast proteins",type:"super",members:["12.3849"],x:50,layer:12}, 
+{id:"kinesin_12",label:"Kinesin Domain",type:"super",members:["12.2472"],x:50,layer:12}, 
+{id:"xpg_12",label:"XPG-I Domain",type:"super",members:["12.1082"],x:50,layer:12}, 
+{id:"beta_16",label:"Beta in yeast",type:"super",members:["16.3666"],x:50,layer:16}, 
+{id:"hatpase_segment_16",label:"Beta in HATPase",type:"super",members:["16.1353", "16.1597", "16.631"],x:50,layer:16}, 
+{id:"GHKL_16",label:"GHKL Domain",type:"super",members:["16.1166", "16.1280", "16.737"],x:50,layer:16}, 
+{id:"beta_20",label:"Beta",type:"super",members:["20.3462", "20.789", "20.2366 "],x:50,layer:20}, 
+{id:"LXVXF",label:"LX[v,F]XF",type:"super",members:["20.1799"],x:50,layer:20}, 
+{id:"hatpase_segment_20",label:"Beta in HATPase",type:"super",members:["20.1108", "20.432"],x:50,layer:20}, 
+{id:"GHKL_20",label:"GHKL Domain",type:"super",members:["20.2311", "20.432"],x:50,layer:20}, 
 ];
 
 // right after you declare mainNodes...
@@ -139,15 +158,18 @@ mainNodes.forEach(n=>{
 
 
 
-// Create input nodes (residues)
+// top of your <script>:
+const xStep = 12;   // <-- up from 12 to 16 (try 18 or 20 too)
+
+// ...later, when you build your input nodes:
 const inputNodes = Array.from(sequence).map((aa, i) => ({
-  id: `residue_${i+1}`,
+  id:    `residue_${i+1}`,
   label: `${aa}\n${i+1}`,
-  type: "input",
-  x: i * 12,
-  y: 700
+  type:  "input",
+  x:     i * xStep,     // ← use xStep here
+  y:     700
 }));
-const inputWidth = inputNodes.length * 12 + 400;
+const inputWidth = inputNodes.length * xStep + 400;
 
 // Final graph data
 const graphData = {
@@ -176,6 +198,59 @@ const graphData = {
     {source:"residue_265",target:"D_spec"},
     {source:"residue_266",target:"D_last"},
     {source:"residue_268",target:"G_last"},
+
+    {source:"residue_67",target:"NXXXNA"},
+
+    {source:"residue_97",target:"IXVXD"},
+
+    {source:"residue_97",target:"sheet_alpha"},
+
+    {source:"residue_197",target:"sheet_alpha"},
+
+    {source:"residue_197",target:"alt_beta"},
+
+    {source:"residue_65",target:"repeat_dn"},
+    {source:"residue_212",target:"repeat_dn"},
+    {source:"residue_213",target:"repeat_dn"},
+    {source:"residue_266",target:"repeat_dn"},
+
+    {source:"residue_98",target:"hatpase_segment"},
+    {source:"residue_195",target:"hatpase_segment"},
+    {source:"residue_197",target:"hatpase_segment"},
+
+    {source:"residue_197",target:"general_beta"},
+
+    {source:"residue_197",target:"GHKL_12"},
+
+    {source:"residue_197",target:"yeast_12"},
+
+    {source:"residue_97",target:"xpg_12"},
+
+    {source:"residue_197",target:"kinesin_12"},
+
+    {source:"residue_197",target:"beta_16"},
+
+    {source:"residue_195",target:"hatpase_segment_16"},
+    {source:"residue_196",target:"hatpase_segment_16"},
+    {source:"residue_197",target:"hatpase_segment_16"},
+    {source:"residue_199",target:"hatpase_segment_16"},
+    {source:"residue_201",target:"hatpase_segment_16"},
+
+    {source:"residue_195",target:"GHKL_16"},
+    {source:"residue_197",target:"GHKL_16"},
+    {source:"residue_199",target:"GHKL_16"},
+    {source:"residue_201",target:"GHKL_16"},
+
+    {source:"residue_197",target:"beta_20"},
+
+    {source:"residue_197",target:"LXVXF"},
+    {source:"residue_199",target:"LXVXF"},
+
+    {source:"residue_195",target:"hatpase_segment_20"},
+    {source:"residue_197",target:"hatpase_segment_20"},
+    {source:"residue_199",target:"hatpase_segment_20"},
+
+    {source:"residue_195",target:"GHKL_20"},
   ],
   
   features: {
@@ -236,8 +311,9 @@ const graphData = {
   "4.100": {
     description: "Fires on around IL? unsure but new residues increase activation on I67,I86",
     activations: "",
-    // fig1: "https://via.placeholder.com/400x200?text=Feature+4+Plot+1",
-    // fig2: "https://via.placeholder.com/400x200?text=Feature+4+Plot+2"
+    fig1: "circuits_1pvg_jump/l4_100_1.png",
+    fig2: "circuits_1pvg_jump/l4_100_cons.png",
+    fig3: "circuits_1pvg_jump/l4_100_IL.png"
   },
   "4.2112": {
     description: "Fires on YX_, fires on G30, which has YIG. Y was masked in corrupted. ",
@@ -299,8 +375,8 @@ const bandData = [
 const bandG = svg.insert("g","g");             // put **behind** nodes
 
 bandData.forEach(b => {
-  const bandX   = (b.start-1) * 12;            // same 12-px grid
-  const bandW   = (b.end - b.start + 1) * 12;
+  const bandX   = (b.start-1) * xStep;            // same 12-px grid
+  const bandW   = (b.end - b.start + 1) * xStep;
 
   // semi-transparent rectangle
   bandG.append("rect")
@@ -350,18 +426,43 @@ graphData.edges.forEach(edge => {
 
 
 // nodes
-const placedX = [];
+// const placedX = [];
+// graphData.nodes.forEach(node => {
+//   if (node.type !== "input" && residueConnections[node.id]) {
+//     const sources = residueConnections[node.id];
+//     const meanX = sources.reduce((acc, rid) => acc + nodeById(rid).x, 0) / sources.length;
+//     node.x = meanX;
+
+//     // --- collision handling ---
+//     while (placedX.some(px => Math.abs(px - node.x) < 60)) {
+//       node.x += 80;  // bump right
+//     }
+//     placedX.push(node.x);
+//   }
+// });
+// (3) collision handling, grouped by layer:
+const bumpThreshold = 60;  // “minimum” gap you want between main nodes
+const bumpAmount    = 120;
+const placedXByLayer = {};  // { layerValue: [x1,x2,...] }
+
 graphData.nodes.forEach(node => {
   if (node.type !== "input" && residueConnections[node.id]) {
     const sources = residueConnections[node.id];
-    const meanX = sources.reduce((acc, rid) => acc + nodeById(rid).x, 0) / sources.length;
-    node.x = meanX;
+    const meanX   = sources.reduce((acc, rid) => acc + nodeById(rid).x, 0) / sources.length;
+    let   x       = meanX;
+    const layer   = featureLayer[node.members?.[0]] || node.layer;  // or however you store node.layer
 
-    // --- collision handling ---
-    while (placedX.some(px => Math.abs(px - node.x) < 60)) {
-      node.x += 80;  // bump right
+    // init array for this layer
+    if (!placedXByLayer[layer]) placedXByLayer[layer] = [];
+
+    // bump until no collision *in the same layer*
+    while (placedXByLayer[layer].some(px => Math.abs(px - x) < bumpThreshold)) {
+      x += bumpAmount;
     }
-    placedX.push(node.x);
+
+
+    node.x = x;
+    placedXByLayer[layer].push(x);
   }
 });
 
@@ -508,6 +609,10 @@ function showFeature(fid){
     }
     ${ f.fig2
         ? `<img src="${f.fig2}" class="w-full rounded mb-4 border border-purple-400" />`
+        : ``
+    }
+    ${ f.fig3
+        ? `<img src="${f.fig3}" class="w-full rounded mb-4 border border-purple-400" />`
         : ``
     }
   `);
