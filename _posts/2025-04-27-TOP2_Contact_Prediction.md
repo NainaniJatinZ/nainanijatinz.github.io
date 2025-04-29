@@ -450,7 +450,11 @@ graphData.nodes.forEach(node => {
     const sources = residueConnections[node.id];
     const meanX   = sources.reduce((acc, rid) => acc + nodeById(rid).x, 0) / sources.length;
     let   x       = meanX;
-    const layer   = featureLayer[node.members?.[0]] || node.layer;  // or however you store node.layer
+    const layerKey = node.members && node.members.length > 0
+               ? node.members[0]
+               : null;
+    const layer    = featureLayer[layerKey] || node.layer;
+    // const layer   = featureLayer[node.members?.[0]] || node.layer;  // or however you store node.layer
 
     // init array for this layer
     if (!placedXByLayer[layer]) placedXByLayer[layer] = [];
