@@ -17,27 +17,34 @@ social: true  # includes social icons at the bottom of the page
 ---
 Explorer first, researcher second, engineer third.
 
-I’m deeply fascinated by intelligence and reasoning, both in narrow and general contexts. My core interests lie in reverse-engineering systems like Large Language Models (LLMs) and diffusion models, particularly exploring their non-trivial capabilities.
+I’m deeply fascinated by intelligence and reasoning, both in narrow and general contexts. My core interests lie in reverse-engineering systems like Large Language Models (LLMs) and protein Language Models (pLMs), particularly exploring their non-trivial capabilities.
 
 My research in Mech Interp follows a simple moto - "If a neural network can **consistently** show **nontrivial** abilites, I should be able to **reverse engineer** it". If a network that satisfies the above two criteria is reading this, be wary! I am coming for you.
 
-I iterate quickly with the goal to fail fast and adjust. I love learning things that fascinate me from ground up -- currently focusing on proteins and robotics. I love hiking, writing, and playing tech mods on minecraft.
+I iterate quickly with the goal to fail fast and adjust. I love learning things that fascinate me from ground up -- currently focusing on proteins. I love hiking, writing, drawing, and playing tech mods on minecraft.
 
-Currently, I’m pursuing an MS in Computer Science at UMass Amherst, working on my thesis in Mechanistic Interpretability under the guidance of Prof. David Jensen and Prof. Anna Green (Preliminary report coming soon!).
-
+My master's thesis on understanding protein Language Models with Mechanistic Interpretability is available at biorxiv: [https://www.biorxiv.org/content/10.1101/2025.08.22.671739v1](https://www.biorxiv.org/content/10.1101/2025.08.22.671739v1)
 
 You can contact me at: **nainani.jatin.0@gmail.com**
 <!-- 
 [And you can find my **Resume** here: CV](https://drive.google.com/file/d/1FDQonUStXESpphuAY8MdO-N8eNz0BWTp/view?usp=sharing) -->
 
-# What's new about me?
-
+<!-- # What's new about me?
+- 
 - 10/01/24 ⮕ Got into Neel Nanda's MATs Training Phase
-- 09/05/24 ⮕ Completed summer internship at NVIDIA, working on using LLM agents for Chip Design and VLSI
+- 09/05/24 ⮕ Completed summer internship at NVIDIA, working on using LLM agents for Chip Design and VLSI -->
 
 ---
 
 ## Publications and In-Progress Work
+
+**Mechanistic evidence that motif-gated domain recognition drives contact prediction in protein language models**\
+**Jatin Nainani**, Bryn Marie Reimer, Connor Watts, David Jensen, Anna G Green\
+In preparation | 📄 [biorXiv](https://www.biorxiv.org/content/10.1101/2025.08.22.671739v1)
+
+**Detecting and Characterizing Planning in Language Models**\
+**Jatin Nainani**, Sankaran Vaidyanathan, Connor Watts, Andre N Assis, Alice Rigg\
+In preparation | 📄 [arXiv](https://arxiv.org/abs/2508.18098)
 
 **Adaptive Circuit Behavior and Generalization in Mechanistic Interpretability**\
 **Jatin Nainani\***, Sankaran Vaidyanathan*, AJ Yeung, Kartik Gupta, David Jensen\
