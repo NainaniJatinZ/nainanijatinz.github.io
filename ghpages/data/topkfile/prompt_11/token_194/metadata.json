@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-10-09T12:59:39.721301",
+  "prompt_idx": 11,
+  "inter_token_id": 194,
+  "baseline_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+  "status": "success",
+  "num_circuit_entries": 40001,
+  "num_clusters": 13,
+  "cluster_labels": [
+    "()",
+    "in",
+    "-",
+    "return",
+    "for",
+    "i",
+    "int",
+    "range",
+    "max",
+    "n",
+    "num",
+    "str",
+    "+="
+  ]
+}

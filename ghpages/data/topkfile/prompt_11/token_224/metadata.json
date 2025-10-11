@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-10-09T13:56:53.239714",
+  "prompt_idx": 11,
+  "inter_token_id": 224,
+  "baseline_text": " += str(digits[n-i-1])\n    return int(max_num)\n",
+  "status": "success",
+  "num_circuit_entries": 50001,
+  "num_clusters": 4,
+  "cluster_labels": [
+    "-",
+    "int",
+    "return",
+    "str"
+  ]
+}

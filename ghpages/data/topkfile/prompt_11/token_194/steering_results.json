@@ -1,0 +1,1051 @@
+{
+  "()": {
+    "base_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": true,
+        "steered_text": [
+          577,
+          6728,
+          573,
+          35646,
+          235265,
+          108,
+          141,
+          51504,
+          235265,
+          8893,
+          645,
+          108,
+          141,
+          2615,
+          235298,
+          3056,
+          589,
+          7447,
+          108,
+          141,
+          746,
+          22926,
+          575,
+          35646,
+          235292,
+          108,
+          145,
+          2615,
+          235298,
+          3056,
+          2770,
+          1295,
+          235278,
+          30478,
+          235275,
+          108,
+          141,
+          773,
+          1211,
+          235278,
+          2615,
+          235298,
+          3056,
+          235275,
+          108
+        ],
+        "decoded_text": " to sort the digits.\n    digits.sort()\n    max_num = ''\n    for digit in digits:\n        max_num += str(digit)\n    return int(max_num)\n"
+      },
+      {
+        "coeff": -80,
+        "is_tokens": true,
+        "steered_text": [
+          576,
+          35646,
+          235265,
+          8893,
+          645,
+          108,
+          141,
+          773,
+          133217,
+          8428,
+          235278,
+          1149,
+          235278,
+          235258,
+          235275,
+          604,
+          499,
+          575,
+          35646,
+          235275,
+          108
+        ],
+        "decoded_text": " of digits.sort()\n    return ''.join(str(d) for d in digits)\n"
+      },
+      {
+        "coeff": -60,
+        "is_tokens": true,
+        "steered_text": [
+          235290,
+          1701,
+          235265,
+          8893,
+          645,
+          108,
+          141,
+          773,
+          1211,
+          885,
+          2776,
+          8428,
+          235278,
+          1149,
+          235278,
+          235258,
+          235275,
+          604,
+          499,
+          575,
+          35646,
+          1269,
+          109
+        ],
+        "decoded_text": "-list.sort()\n    return int(\"\".join(str(d) for d in digits))\n\n"
+      },
+      {
+        "coeff": -40,
+        "is_tokens": true,
+        "steered_text": [
+          589,
+          24087,
+          235278,
+          51504,
+          235275,
+          108,
+          141,
+          746,
+          496,
+          575,
+          3001,
+          235278,
+          2597,
+          235278,
+          51504,
+          235275,
+          728,
+          235248,
+          235274,
+          235269,
+          728,
+          235274,
+          235269,
+          728,
+          235274,
+          1245,
+          108,
+          145,
+          746,
+          678,
+          575,
+          3001,
+          235278,
+          235252,
+          963,
+          235248,
+          235274,
+          235269,
+          4574,
+          235278,
+          51504,
+          21745,
+          108,
+          149,
+          648,
+          35646,
+          235309,
+          235252,
+          235307,
+          1562,
+          35646,
+          235309,
+          235312,
+          8254,
+          108,
+          153,
+          773,
+          1211,
+          885,
+          2776,
+          8428,
+          235278,
+          1149,
+          235278,
+          235258,
+          235275,
+          604,
+          499,
+          575,
+          35646,
+          235309,
+          235252,
+          235292,
+          235312,
+          235340,
+          235274,
+          18256,
+          108
+        ],
+        "decoded_text": " = sorted(digits)\n    for i in range(len(digits) - 1, -1, -1):\n        for j in range(i + 1, len(digits)):\n            if digits[i] > digits[j]:\n                return int(\"\".join(str(d) for d in digits[i:j+1]))\n"
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "in": {
+    "base_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": true,
+        "steered_text": [
+          235278,
+          51504,
+          235275,
+          108,
+          141,
+          2615,
+          235298,
+          3056,
+          589,
+          235248,
+          235276,
+          108,
+          141,
+          746,
+          22926,
+          575,
+          35646,
+          235292,
+          108,
+          145,
+          2615,
+          235298,
+          3056,
+          589,
+          2968,
+          235278,
+          2615,
+          235298,
+          3056,
+          649,
+          235248,
+          235274,
+          235276,
+          963,
+          22926,
+          235269,
+          22926,
+          235275,
+          108,
+          141,
+          773,
+          2968,
+          235298,
+          3056,
+          108
+        ],
+        "decoded_text": "(digits)\n    max_num = 0\n    for digit in digits:\n        max_num = max(max_num * 10 + digit, digit)\n    return max_num\n"
+      },
+      {
+        "coeff": -80,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "-": {
+    "base_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": true,
+        "steered_text": [
+          235269,
+          578,
+          573,
+          10155,
+          1758,
+          674,
+          798,
+          614,
+          10311,
+          675,
+          573,
+          2764,
+          35646,
+          235265,
+          108,
+          141,
+          1676,
+          108,
+          141,
+          773,
+          2968,
+          235278,
+          51504,
+          235275,
+          108
+        ],
+        "decoded_text": ", and the largest number that can be formed with the given digits.\n    \"\"\"\n    return max(digits)\n"
+      },
+      {
+        "coeff": -80,
+        "is_tokens": true,
+        "steered_text": [
+          235269,
+          578,
+          8753,
+          573,
+          10155,
+          1758,
+          674,
+          798,
+          614,
+          10311,
+          675,
+          573,
+          2764,
+          35646,
+          235265,
+          108,
+          141,
+          1676,
+          108,
+          141,
+          235345,
+          31938,
+          573,
+          35646,
+          575,
+          62525,
+          2184,
+          108,
+          141,
+          51504,
+          235265,
+          8893,
+          645,
+          108,
+          141,
+          235345,
+          8682,
+          573,
+          10155,
+          1758,
+          674,
+          798,
+          614,
+          10311,
+          675,
+          573,
+          2764,
+          35646,
+          108,
+          141,
+          62206,
+          235298,
+          4308,
+          589,
+          235248,
+          235276,
+          108,
+          141,
+          746,
+          496,
+          575,
+          3001,
+          235278,
+          2597,
+          235278,
+          51504,
+          21745,
+          108,
+          145,
+          62206,
+          235298,
+          4308,
+          589,
+          2968,
+          235278,
+          62206,
+          235298,
+          4308,
+          235269,
+          35646,
+          235309,
+          235252,
+          3013,
+          108,
+          141,
+          773,
+          10155,
+          235298,
+          4308,
+          108
+        ],
+        "decoded_text": ", and returns the largest number that can be formed with the given digits.\n    \"\"\"\n    # Sort the digits in ascending order\n    digits.sort()\n    # Find the largest number that can be formed with the given digits\n    largest_number = 0\n    for i in range(len(digits)):\n        largest_number = max(largest_number, digits[i])\n    return largest_number\n"
+      },
+      {
+        "coeff": -60,
+        "is_tokens": true,
+        "steered_text": [
+          108,
+          141,
+          1676,
+          108,
+          141,
+          51504,
+          235265,
+          8893,
+          645,
+          108,
+          141,
+          2615,
+          235298,
+          3056,
+          589,
+          235248,
+          235276,
+          108,
+          141,
+          746,
+          496,
+          575,
+          3001,
+          235278,
+          2597,
+          235278,
+          51504,
+          21745,
+          108,
+          145,
+          648,
+          35646,
+          235309,
+          235252,
+          235307,
+          1864,
+          235248,
+          235276,
+          235292,
+          108,
+          149,
+          2615,
+          235298,
+          3056,
+          589,
+          2968,
+          235278,
+          2615,
+          235298,
+          3056,
+          235269,
+          35646,
+          235309,
+          235252,
+          3013,
+          108,
+          141,
+          773,
+          2968,
+          235298,
+          3056,
+          108
+        ],
+        "decoded_text": "\n    \"\"\"\n    digits.sort()\n    max_num = 0\n    for i in range(len(digits)):\n        if digits[i] != 0:\n            max_num = max(max_num, digits[i])\n    return max_num\n"
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "return": {
+    "base_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": true,
+        "steered_text": [
+          235278,
+          51504,
+          235275,
+          108,
+          141,
+          108,
+          141,
+          62206,
+          235298,
+          3056,
+          589,
+          4973,
+          108,
+          141,
+          746,
+          22926,
+          575,
+          35646,
+          235292,
+          108,
+          145,
+          648,
+          22926,
+          1159,
+          664,
+          235276,
+          1192,
+          108,
+          149,
+          6551,
+          108,
+          145,
+          1075,
+          235292,
+          108,
+          149,
+          62206,
+          235298,
+          3056,
+          2770,
+          1295,
+          235278,
+          30478,
+          235275,
+          108,
+          141,
+          108,
+          141,
+          773,
+          1211,
+          235278,
+          62206,
+          235298,
+          3056,
+          235275,
+          108
+        ],
+        "decoded_text": "(digits)\n    \n    largest_num = \"\"\n    for digit in digits:\n        if digit == \"0\":\n            continue\n        else:\n            largest_num += str(digit)\n    \n    return int(largest_num)\n"
+      },
+      {
+        "coeff": -80,
+        "is_tokens": true,
+        "steered_text": [
+          235278,
+          2033,
+          235293,
+          7075,
+          1141,
+          235292,
+          1141,
+          235275,
+          108,
+          141,
+          2615,
+          235298,
+          3056,
+          589,
+          7447,
+          108,
+          141,
+          746,
+          22926,
+          575,
+          35646,
+          235292,
+          108,
+          145,
+          648,
+          22926,
+          1159,
+          777,
+          235276,
+          2130,
+          108,
+          149,
+          6551,
+          108,
+          145,
+          2615,
+          235298,
+          3056,
+          2770,
+          1295,
+          235278,
+          30478,
+          235275,
+          108,
+          141,
+          773,
+          1211,
+          235278,
+          2615,
+          235298,
+          3056,
+          235275,
+          108
+        ],
+        "decoded_text": "(key=lambda x: x)\n    max_num = ''\n    for digit in digits:\n        if digit == '0':\n            continue\n        max_num += str(digit)\n    return int(max_num)\n"
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "for": {
+    "base_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": true,
+        "steered_text": [
+          235278,
+          25386,
+          235293,
+          5036,
+          235275,
+          108,
+          141,
+          2615,
+          235298,
+          3056,
+          589,
+          4973,
+          108,
+          141,
+          746,
+          22926,
+          575,
+          35646,
+          235292,
+          108,
+          145,
+          2615,
+          235298,
+          3056,
+          2770,
+          1295,
+          235278,
+          30478,
+          235275,
+          108,
+          141,
+          773,
+          1211,
+          235278,
+          2615,
+          235298,
+          3056,
+          235275,
+          108
+        ],
+        "decoded_text": "(reverse=True)\n    max_num = \"\"\n    for digit in digits:\n        max_num += str(digit)\n    return int(max_num)\n"
+      },
+      {
+        "coeff": -80,
+        "is_tokens": true,
+        "steered_text": [
+          235278,
+          25386,
+          235293,
+          5036,
+          235275,
+          108,
+          141,
+          2615,
+          235298,
+          3056,
+          589,
+          7447,
+          108,
+          141,
+          746,
+          22926,
+          575,
+          35646,
+          235292,
+          108,
+          145,
+          2615,
+          235298,
+          3056,
+          2770,
+          1295,
+          235278,
+          30478,
+          235275,
+          108,
+          141,
+          773,
+          1211,
+          235278,
+          2615,
+          235298,
+          3056,
+          235275,
+          108
+        ],
+        "decoded_text": "(reverse=True)\n    max_num = ''\n    for digit in digits:\n        max_num += str(digit)\n    return int(max_num)\n"
+      },
+      {
+        "coeff": -60,
+        "is_tokens": true,
+        "steered_text": [
+          235278,
+          25386,
+          235293,
+          5036,
+          235275,
+          108,
+          141,
+          2615,
+          235298,
+          3056,
+          589,
+          7447,
+          108,
+          141,
+          746,
+          22926,
+          575,
+          35646,
+          235292,
+          108,
+          145,
+          2615,
+          235298,
+          3056,
+          2770,
+          1295,
+          235278,
+          30478,
+          235275,
+          108,
+          141,
+          773,
+          1211,
+          235278,
+          2615,
+          235298,
+          3056,
+          235275,
+          108
+        ],
+        "decoded_text": "(reverse=True)\n    max_num = ''\n    for digit in digits:\n        max_num += str(digit)\n    return int(max_num)\n"
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "i": {
+    "base_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -80,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "int": {
+    "base_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -80,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "range": {
+    "base_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -80,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "max": {
+    "base_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -80,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "n": {
+    "base_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": true,
+        "steered_text": [
+          235278,
+          108
+        ],
+        "decoded_text": "(\n"
+      },
+      {
+        "coeff": -80,
+        "is_tokens": true,
+        "steered_text": [
+          235278,
+          7075,
+          1141,
+          235292,
+          1141,
+          235275,
+          108,
+          141,
+          773,
+          235248,
+          235276,
+          108
+        ],
+        "decoded_text": "(lambda x: x)\n    return 0\n"
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "num": {
+    "base_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -80,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "str": {
+    "base_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -80,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "+=": {
+    "base_text": "()\n    n = len(digits)\n    max_num = ''\n    for i in range(n):\n        max_num += str(digits[n-i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -80,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "int": {
+    "base_text": " int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -80,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  }
+}

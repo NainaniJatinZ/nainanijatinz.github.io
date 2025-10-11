@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-10-09T12:56:50.882645",
+  "prompt_idx": 15,
+  "inter_token_id": 294,
+  "baseline_text": " sorted(marks, key=lambda x: x[1])\n",
+  "status": "success",
+  "num_circuit_entries": 30001,
+  "num_clusters": 3,
+  "cluster_labels": [
+    "1",
+    "key",
+    "x"
+  ]
+}

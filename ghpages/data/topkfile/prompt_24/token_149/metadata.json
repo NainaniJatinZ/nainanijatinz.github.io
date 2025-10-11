@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-10-08T16:33:21.340770",
+  "prompt_idx": 24,
+  "inter_token_id": 149,
+  "baseline_text": "if n <= 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        return (n * (n + 1) * (n + 2)) // 6\n",
+  "status": "success",
+  "num_circuit_entries": 50001,
+  "num_clusters": 10,
+  "cluster_labels": [
+    "2",
+    "return",
+    "*",
+    "0",
+    "if",
+    "1",
+    "))",
+    "else",
+    "+",
+    "//"
+  ]
+}

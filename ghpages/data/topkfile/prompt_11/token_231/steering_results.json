@@ -1,0 +1,133 @@
+{
+  "int": {
+    "base_text": "i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": true,
+        "steered_text": [
+          235274,
+          3013,
+          108,
+          141,
+          773,
+          2968,
+          235298,
+          3056,
+          108
+        ],
+        "decoded_text": "1])\n    return max_num\n"
+      },
+      {
+        "coeff": -80,
+        "is_tokens": true,
+        "steered_text": [
+          235274,
+          3013,
+          108,
+          141,
+          773,
+          2968,
+          235298,
+          3056,
+          108
+        ],
+        "decoded_text": "1])\n    return max_num\n"
+      },
+      {
+        "coeff": -60,
+        "is_tokens": true,
+        "steered_text": [
+          235274,
+          3013,
+          108,
+          141,
+          773,
+          2968,
+          235298,
+          3056,
+          108
+        ],
+        "decoded_text": "1])\n    return max_num\n"
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "return": {
+    "base_text": "i-1])\n    return int(max_num)\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": true,
+        "steered_text": [
+          235274,
+          235290,
+          235252,
+          3013,
+          108,
+          145,
+          648,
+          496,
+          1562,
+          235248,
+          235276,
+          235292,
+          108,
+          149,
+          2615,
+          235298,
+          3056,
+          2770,
+          1295,
+          235278,
+          51504,
+          235309,
+          235252,
+          235290,
+          235274,
+          3013,
+          108,
+          141,
+          773,
+          1211,
+          235278,
+          2615,
+          235298,
+          3056,
+          235275,
+          108
+        ],
+        "decoded_text": "1-i])\n        if i > 0:\n            max_num += str(digits[i-1])\n    return int(max_num)\n"
+      },
+      {
+        "coeff": -80,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-10-09T05:03:29.868915",
+  "prompt_idx": 24,
+  "inter_token_id": 161,
+  "baseline_text": "    elif n == 1:\n        return 1\n    else:\n        return (n * (n + 1) * (n + 2)) // 6\n",
+  "status": "success",
+  "num_circuit_entries": 20001,
+  "num_clusters": 7,
+  "cluster_labels": [
+    "*",
+    "2",
+    "1",
+    "else",
+    "+",
+    "//",
+    "))"
+  ]
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plan Trace UI (Static)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Plan Trace</h1>
+      <form id="query-form" class="query-form">
+        <label>
+          prompt_id
+          <input type="number" id="prompt-id" name="prompt_id" min="0" required />
+        </label>
+        <label>
+          token index (yn_ind)
+          <input type="number" id="yn-ind" name="yn_ind" min="0" required />
+        </label>
+        <button type="submit">Load</button>
+        <span id="status" class="status"></span>
+      </form>
+    </header>
+
+    <main class="app-main">
+      <section class="grid-panel">
+        <div class="grid-header">
+          <div class="y-axis-label">layers</div>
+          <div class="x-axis"><div id="x-axis-inner" class="x-axis-inner"></div></div>
+        </div>
+        <div class="grid-body">
+          <div class="y-axis"><div id="y-axis-inner" class="y-axis-inner"></div></div>
+          <div id="grid" class="grid"></div>
+        </div>
+        <div class="legend" id="legend"></div>
+      </section>
+
+      <aside class="sidebar" id="sidebar">
+        <h2>Planning & Steering</h2>
+        <div id="planning"></div>
+        <div id="steering"></div>
+      </aside>
+    </main>
+
+    <section class="detail-panels">
+      <section class="viewer-panel" id="viewer-panel">
+        <div class="viewer-header">
+          <div class="viewer-title" id="viewer-title">Latent Viewer</div>
+          <div class="viewer-controls">
+            <label>
+              ym
+              <select id="ym-select"></select>
+            </label>
+            <label>
+              latent
+              <select id="latent-select"></select>
+            </label>
+          </div>
+        </div>
+        <div class="viewer-body">
+          <div id="neuronpedia" class="neuronpedia"></div>
+        </div>
+      </section>
+
+      <section class="io-panel" id="io-panel">
+        <div class="io-header">
+          <h2>Input & Base Generation</h2>
+        </div>
+        <div class="io-body">
+          <div class="input-strip" id="input-strip"></div>
+          <div class="base-output">
+            <div class="label">base</div>
+            <div id="baseline-strip" class="baseline-strip"></div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+  </html>
+
+

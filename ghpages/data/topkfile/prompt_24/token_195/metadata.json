@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-10-09T06:26:27.281098",
+  "prompt_idx": 24,
+  "inter_token_id": 195,
+  "baseline_text": ")) // 6\n",
+  "status": "success",
+  "num_circuit_entries": 20001,
+  "num_clusters": 2,
+  "cluster_labels": [
+    "//",
+    "))"
+  ]
+}

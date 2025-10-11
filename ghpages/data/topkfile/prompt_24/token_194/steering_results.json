@@ -1,0 +1,112 @@
+{
+  "2": {
+    "base_text": "2)) // 6\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": true,
+        "steered_text": [
+          235248,
+          235274,
+          235275,
+          963,
+          235248,
+          235274,
+          235275,
+          108
+        ],
+        "decoded_text": " 1) + 1)\n"
+      },
+      {
+        "coeff": -80,
+        "is_tokens": true,
+        "steered_text": [
+          235274,
+          1269,
+          108
+        ],
+        "decoded_text": "1))\n"
+      },
+      {
+        "coeff": -60,
+        "is_tokens": true,
+        "steered_text": [
+          235274,
+          1269,
+          108
+        ],
+        "decoded_text": "1))\n"
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "))": {
+    "base_text": "2)) // 6\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -80,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  },
+  "//": {
+    "base_text": "2)) // 6\n",
+    "steered": [
+      {
+        "coeff": -100,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -80,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -60,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -40,
+        "is_tokens": false,
+        "steered_text": ""
+      },
+      {
+        "coeff": -20,
+        "is_tokens": false,
+        "steered_text": ""
+      }
+    ]
+  }
+}

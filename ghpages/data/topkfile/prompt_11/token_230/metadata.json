@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-10-09T14:07:08.371100",
+  "prompt_idx": 11,
+  "inter_token_id": 230,
+  "baseline_text": "-i-1])\n    return int(max_num)\n",
+  "status": "success",
+  "num_circuit_entries": 20001,
+  "num_clusters": 3,
+  "cluster_labels": [
+    "-",
+    "int",
+    "return"
+  ]
+}

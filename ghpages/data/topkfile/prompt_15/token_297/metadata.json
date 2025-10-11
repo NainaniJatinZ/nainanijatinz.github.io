@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-10-09T13:03:05.153373",
+  "prompt_idx": 15,
+  "inter_token_id": 297,
+  "baseline_text": ", key=lambda x: x[1])\n",
+  "status": "success",
+  "num_circuit_entries": 50001,
+  "num_clusters": 3,
+  "cluster_labels": [
+    "1",
+    "x",
+    "key"
+  ]
+}
