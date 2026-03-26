@@ -8,8 +8,7 @@ profile:
   align: right
   image: new_prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: MS in Computer Science 
-   University of Massachusetts Amherst
+  address: Independent Interp4Science Research | AI Engineer @ Nvidia
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -25,7 +24,7 @@ I iterate quickly with the goal to fail fast and adjust. I love learning things 
 
 My master's thesis on understanding protein Language Models with Mechanistic Interpretability is available at biorxiv: [https://www.biorxiv.org/content/10.1101/2025.08.22.671739v1](https://www.biorxiv.org/content/10.1101/2025.08.22.671739v1)
 
-You can contact me at: **nainani.jatin.0@gmail.com**
+You can contact me at: **jsnainani@gmail.com**
 <!-- 
 [And you can find my **Resume** here: CV](https://drive.google.com/file/d/1FDQonUStXESpphuAY8MdO-N8eNz0BWTp/view?usp=sharing) -->
 
