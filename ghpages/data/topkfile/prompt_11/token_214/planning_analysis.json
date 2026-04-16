@@ -1,9 +1,1 @@
-{
-  "in": "Not planning",
-  "return": "Not planning",
-  "-": "Plan",
-  "range": "Not planning",
-  "int": "Plan",
-  "str": "Not planning",
-  "+=": "Not planning"
-}
+{"in":"Not planning","return":"Not planning","-":"Plan","range":"Not planning","int":"Plan","str":"Not planning","+=":"Not planning"}

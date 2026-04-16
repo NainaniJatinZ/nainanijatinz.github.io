@@ -1,15 +1,1 @@
-{
-  "timestamp": "2025-10-09T13:52:52.059962",
-  "prompt_idx": 11,
-  "inter_token_id": 222,
-  "baseline_text": "_num += str(digits[n-i-1])\n    return int(max_num)\n",
-  "status": "success",
-  "num_circuit_entries": 30001,
-  "num_clusters": 4,
-  "cluster_labels": [
-    "-",
-    "return",
-    "int",
-    "str"
-  ]
-}
+{"timestamp":"2025-10-09T13:52:52.059962","prompt_idx":11,"inter_token_id":222,"baseline_text":"_num += str(digits[n-i-1])\n    return int(max_num)\n","status":"success","num_circuit_entries":30001,"num_clusters":4,"cluster_labels":["-","return","int","str"]}

@@ -1,18 +1,1 @@
-{
-  "timestamp": "2025-10-09T05:13:56.083791",
-  "prompt_idx": 24,
-  "inter_token_id": 165,
-  "baseline_text": " 1:\n        return 1\n    else:\n        return (n * (n + 1) * (n + 2)) // 6\n",
-  "status": "success",
-  "num_circuit_entries": 10001,
-  "num_clusters": 7,
-  "cluster_labels": [
-    "1",
-    "+",
-    "else",
-    "2",
-    "))",
-    "*",
-    "//"
-  ]
-}
+{"timestamp":"2025-10-09T05:13:56.083791","prompt_idx":24,"inter_token_id":165,"baseline_text":" 1:\n        return 1\n    else:\n        return (n * (n + 1) * (n + 2)) // 6\n","status":"success","num_circuit_entries":10001,"num_clusters":7,"cluster_labels":["1","+","else","2","))","*","//"]}
