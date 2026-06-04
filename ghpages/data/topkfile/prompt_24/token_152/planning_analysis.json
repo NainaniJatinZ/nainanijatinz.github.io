@@ -1,11 +1,1 @@
-{
-  "1": "Not planning",
-  "0": "Plan",
-  "*": "Not planning",
-  "return": "Not planning",
-  "+": "Not planning",
-  "//": "Not planning",
-  "2": "Not planning",
-  "else": "Not planning",
-  "))": "Not planning"
-}
+{"1":"Not planning","0":"Plan","*":"Not planning","return":"Not planning","+":"Not planning","//":"Not planning","2":"Not planning","else":"Not planning","))":"Not planning"}

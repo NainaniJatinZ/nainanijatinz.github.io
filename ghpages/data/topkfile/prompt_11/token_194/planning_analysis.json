@@ -1,15 +1,1 @@
-{
-  "()": "Plan",
-  "in": "Not planning",
-  "-": "Plan",
-  "return": "Not planning",
-  "for": "Not planning",
-  "i": "Not planning",
-  "int": "Not planning",
-  "range": "Not planning",
-  "max": "Not planning",
-  "n": "Can't say",
-  "num": "Not planning",
-  "str": "Not planning",
-  "+=": "Not planning"
-}
+{"()":"Plan","in":"Not planning","-":"Plan","return":"Not planning","for":"Not planning","i":"Not planning","int":"Not planning","range":"Not planning","max":"Not planning","n":"Can't say","num":"Not planning","str":"Not planning","+=":"Not planning"}

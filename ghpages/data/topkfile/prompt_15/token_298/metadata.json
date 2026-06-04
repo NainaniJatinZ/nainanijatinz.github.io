@@ -1,14 +1,1 @@
-{
-  "timestamp": "2025-10-09T13:05:13.843173",
-  "prompt_idx": 15,
-  "inter_token_id": 298,
-  "baseline_text": " key=lambda x: x[1])\n",
-  "status": "success",
-  "num_circuit_entries": 10001,
-  "num_clusters": 3,
-  "cluster_labels": [
-    "key",
-    "1",
-    "x"
-  ]
-}
+{"timestamp":"2025-10-09T13:05:13.843173","prompt_idx":15,"inter_token_id":298,"baseline_text":" key=lambda x: x[1])\n","status":"success","num_circuit_entries":10001,"num_clusters":3,"cluster_labels":["key","1","x"]}
