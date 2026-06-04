@@ -134,10 +134,11 @@ external_sources:
 
 collections:
   news:
-    defaults:
-      layout: post
     output: true
     permalink: /news/:path/
+  art:
+    output: true
+    permalink: /art/:path/
   projects:
     output: true
     permalink: /projects/:path/
@@ -195,6 +196,16 @@ defaults:
       path: "assets/**/*.*"
     values:
       sitemap: false
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "art"
+    values:
+      layout: art_entry
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -306,6 +317,7 @@ enable_navbar_social:       true  # enables displaying social links in the
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+show_plan_trace_nav:        false  # controls whether the Plan Trace nav tab is visible
 
 
 # -----------------------------------------------------------------------------
